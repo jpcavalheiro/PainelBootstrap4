@@ -3,6 +3,14 @@
 font-family: 'Nunito', sans-serif;
 font-family: 'Nunito Sans', sans-serif;
  */
+body{
+    background: #eff1f4ff;
+}
+
+#jp-navbar{
+    background: #fff;
+    box-shadow: 8px 2px 6px rgba(164, 164, 164, 0.3);
+}
 
 #navbar-site-title{
     font-family: 'Nunito', sans-serif;
