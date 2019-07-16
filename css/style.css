@@ -5,8 +5,82 @@ font-family: 'Nunito Sans', sans-serif;
  */
 body{
     background: #eff1f4ff;
+    overflow-x: hidden;
 }
 
+#sidebar-wrapper{
+    min-height: 100vh;
+    margin-left: -18rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+    background-color: #3e4856ff;
+
+}
+
+#sidebar-wrapper .sidebar-heading{
+    padding: 0.875rem 1.25rem;
+    background-color: #262d37ff;
+    color: #fff;
+    height: 64px;
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#sidebar-wrapper .list-group{
+    width: 18rem;
+}
+
+#sidebar-wrapper .list-group-item{
+    background-color: #3e4856ff;
+    color: #fff;
+    border: none;
+    font-family: 'Nunito', sans-serif;
+    padding: 10%;
+    padding-left: 15%;
+}
+
+#sidebar-wrapper .list-group-item:hover{
+    background-color: #262e39f0;
+    color: #fff;
+}
+
+#page-content-wrapper{
+    min-width: 100vw;
+}
+/* Se eu estiver em uma tela grande */
+@media(min-width: 768px) {
+    #page-content-wrapper{
+        min-width: 0;
+        width: 100%;
+    }
+}
+#page-content-wrapper{
+    min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper{
+    margin-left: 0;
+}
+
+/* Se eu estiver em uma tela grande */
+@media(min-width: 768px) {
+    #page-content-wrapper{
+        min-width: 0;
+        width: 100%;
+    }
+
+    #sidebar-wrapper{
+        margin-left: 0;
+    }
+
+    #wrapper.toggled #sidebar-wrapper{
+        margin-left: -18rem;
+    }
+}
+
+/* ----------------------------- */
 #jp-navbar{
     background: #fff;
     box-shadow: 8px 2px 6px rgba(164, 164, 164, 0.3);
