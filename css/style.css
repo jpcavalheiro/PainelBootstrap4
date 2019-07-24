@@ -84,6 +84,10 @@ body{
 #jp-navbar{
     background: #fff;
     box-shadow: 8px 2px 6px rgba(164, 164, 164, 0.3);
+    height: 64px;
+    padding-top: 0;
+    padding-left: 0;
+    padding-bottom: 0;
 }
 
 #navbar-site-title{
@@ -127,4 +131,17 @@ body{
     padding-left: 4%;
     color: #262d37ff;
     font-family: 'Nunito', sans-serif;
+}
+
+/*-------------*/
+#menu-toggle{
+    background-color: #262d37ff;
+    width: 82px;
+    height: 64px;
+    color: #fff;
+    padding-top: 14px;
+}
+
+#menu-toggle img{
+    width: 30px;
 }
