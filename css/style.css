@@ -166,6 +166,7 @@ body{
     font-family: 'Nunito', sans-serif;
     color: #262d37ff;
     font-size: 32px;
+    margin-bottom: 15px;
 }
 
 .jp-form{
@@ -179,4 +180,10 @@ body{
 
 .confirm-btns{
     background-color: #f5f7faff;
+}
+
+.form-group label{
+    font-size: 17px;
+    font-family: 'Nunito', sans-serif;
+    color: #a3a8aeff;
 }
