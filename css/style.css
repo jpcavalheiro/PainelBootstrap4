@@ -47,6 +47,11 @@ body{
     padding-left: 15%;
 }
 
+#sidebar-wrapper .list-group-item i{
+    padding-right: 5.5%;
+    font-size: 18px;
+}
+
 #sidebar-wrapper .list-group-item:hover{
     background-color: #262e39f0;
     color: #fff;
