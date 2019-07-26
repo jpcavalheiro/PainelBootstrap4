@@ -156,3 +156,14 @@ body{
 #menu-toggle img{
     width: 30px;
 }
+
+/*----------------------------------*/
+#content{
+    margin-top: 50px;
+}
+
+.jp-main-text-3{
+    font-family: 'Nunito', sans-serif;
+    color: #262d37ff;
+    font-size: 32px;
+}
