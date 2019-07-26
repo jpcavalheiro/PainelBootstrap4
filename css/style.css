@@ -182,6 +182,20 @@ body{
     background-color: #f5f7faff;
 }
 
+.confirm-btns button{
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    padding-left: 2%;
+    padding-right: 2%;
+    border-radius: 11px;
+    background-color: #5898d9ff;
+    border: none;
+}
+
+.confirm-btns button:hover{
+    background-color: #2b74bfff;
+}
+
 .form-group label{
     font-size: 17px;
     font-family: 'Nunito', sans-serif;
