@@ -132,10 +132,14 @@
                             <button class="btn btn-primary">Creat and add</button>
                             <button class="btn btn-primary">Publish</button>
                         </div>
-
                     </form>
 
-                    <h3>Sem conteúdo</h3>
+                    <h3 id="graphsh3">Graphs</h3>
+                    <div class="card">
+                        <card class="body">
+                            <canvas id="relatorio"></canvas>
+                        </card>
+                    </div>
 
                 </div>
             </div>
@@ -160,5 +164,20 @@
         );
     </script>
     <script src="js/chart/Chart.min.js"></script>
+    <script>
+        var contexto = document.getElementById("relatorio").getContext('2d')
+        var graph = new Chart(contexto, {
+            type: 'line',
+            data: {
+                labels: ['January', 'February', 'Mars', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'],
+                datasets:[{
+                    label: 'Hello, World!',
+                    backgroundColor: "#5898d9ff",
+                    borderColor: "#5898d9ff",
+                    data: [10, 5, 7, 12, 2, 7, 23, 12, 34, 3, 43, 23]
+                }]
+            }
+        })
+    </script>
 </body>
 </html>
